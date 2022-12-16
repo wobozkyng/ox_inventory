@@ -1770,7 +1770,7 @@ RegisterServerEvent('ox_inventory:updateWeapon', function(action, value, slot)
 
 			if action == 'load' and weapon.metadata.durability > 0 then
 				local ammo = Items(weapon.name).ammoname
-				local diff = value - weapon.metadata.ammo
+				local diff = ammo:find('mag') and 1 or value - weapon.metadata.ammo
 
 				if Inventory.RemoveItem(inventory, ammo, diff) then
 					weapon.metadata.ammo = value
