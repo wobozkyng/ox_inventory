@@ -194,4 +194,321 @@ return {
 		label = 'Scrap Metal',
 		weight = 80,
 	},
+
+	['alive_chicken'] = {
+		label = 'Living chicken',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['blowpipe'] = {
+		label = 'Blowtorch',
+		weight = 2,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['bread'] = {
+		label = 'Bread',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['cannabis'] = {
+		label = 'Cannabis',
+		weight = 3,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['carokit'] = {
+		label = 'Body Kit',
+		weight = 3,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['carotool'] = {
+		label = 'Tools',
+		weight = 2,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['clothe'] = {
+		label = 'Cloth',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['copper'] = {
+		label = 'Copper',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['cutted_wood'] = {
+		label = 'Cut wood',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['diamond'] = {
+		label = 'Diamond',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['essence'] = {
+		label = 'Gas',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['fabric'] = {
+		label = 'Fabric',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['fish'] = {
+		label = 'Fish',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['fixkit'] = {
+		label = 'Repair Kit',
+		weight = 3,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['fixtool'] = {
+		label = 'Repair Tools',
+		weight = 2,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['gazbottle'] = {
+		label = 'Gas Bottle',
+		weight = 2,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['gold'] = {
+		label = 'Gold',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['iron'] = {
+		label = 'Iron',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['marijuana'] = {
+		label = 'Marijuana',
+		weight = 2,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['medikit'] = {
+		label = 'Medikit',
+		weight = 2,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['packaged_chicken'] = {
+		label = 'Chicken fillet',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['packaged_plank'] = {
+		label = 'Packaged wood',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['petrol'] = {
+		label = 'Oil',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['petrol_raffin'] = {
+		label = 'Processed oil',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['slaughtered_chicken'] = {
+		label = 'Slaughtered chicken',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['stone'] = {
+		label = 'Stone',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['washed_stone'] = {
+		label = 'Washed stone',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['wood'] = {
+		label = 'Wood',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['wool'] = {
+		label = 'Wool',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	--wasabi fishing
+	['anchovy'] = {
+		label = 'Anchovy',
+		weight = 20,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['fishbait'] = {
+		label = 'Fish Bait',
+		weight = 20,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['fishingrod'] = {
+		label = 'Fishing Rod',
+		weight = 20,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['salmon'] = {
+		label = 'Salmon',
+		weight = 20,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['trout'] = {
+		label = 'Trout',
+		weight = 20,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['tuna'] = {
+		label = 'Tuna',
+		weight = 20,
+		stack = true,
+		close = true,
+		description = nil
+	},
+
+	['m_jbib_41_0'] = {
+		label = 'm_jbib_41_0',
+		weight = 20,
+		description = 'Clothes Item can be used',
+		client = {
+			export = 'clothes_item.wear_clothes'
+		}
+	},
+
+	['m_jbib_51_0'] = {
+		label = 'm_jbib_51_0',
+		weight = 20,
+		description = 'Clothes Item can be used',
+		client = {
+			export = 'clothes_item.wear_clothes'
+		}
+	},
+	
+    ['scuba_set'] = {
+		label = 'Scuba Set',
+		weight = 2000,
+		description = 'Diving equipment, longer underwater',
+		client = {
+			export = 'esx_scuba.wear'
+		}
+	},
+	
+    ['scuba_fins'] = {
+		label = 'Scuba Fins',
+		weight = 200,
+		description = 'Diving equipment, swimming assitance',
+		client = {
+			export = 'esx_scuba.wear'
+		}
+	}
 }

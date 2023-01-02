@@ -5,28 +5,28 @@ return {
 			label = 'Advanced Rifle',
 			weight = 3180,
 			durability = 0.03,
-			ammoname = 'ammo-rifle',
+			ammoname = 'mag-rifle',
 		},
 
 		['WEAPON_APPISTOL'] = {
 			label = 'AP Pistol',
 			weight = 1220,
 			durability = 0.1,
-			ammoname = 'ammo-9',
+			ammoname = 'mag-9',
 		},
 
 		['WEAPON_ASSAULTRIFLE'] = {
 			label = 'Assault Rifle',
 			weight = 3470,
 			durability = 0.03,
-			ammoname = 'ammo-rifle2',
+			ammoname = 'mag-rifle2',
 		},
 
 		['WEAPON_ASSAULTRIFLE_MK2'] = {
 			label = 'Assault Rifle MK2',
 			weight = 3300,
 			durability = 0.03,
-			ammoname = 'ammo-rifle2',
+			ammoname = 'mag-rifle2',
 		},
 
 		['WEAPON_ASSAULTSHOTGUN'] = {
@@ -40,7 +40,7 @@ return {
 			label = 'Assault SMG',
 			weight = 2850,
 			durability = 0.05,
-			ammoname = 'ammo-rifle'
+			ammoname = 'mag-rifle'
 		},
 
 		['WEAPON_BALL'] = {
@@ -71,14 +71,14 @@ return {
 			label = 'Bullpup Rifle',
 			weight = 2900,
 			durability = 0.03,
-			ammoname = 'ammo-rifle'
+			ammoname = 'mag-rifle'
 		},
 
 		['WEAPON_BULLPUPRIFLE_MK2'] = {
 			label = 'Bullpup Rifle MK2',
 			weight = 2900,
 			durability = 0.03,
-			ammoname = 'ammo-rifle'
+			ammoname = 'mag-rifle'
 		},
 
 		['WEAPON_BULLPUPSHOTGUN'] = {
@@ -98,49 +98,49 @@ return {
 			label = 'Carbine Rifle',
 			weight = 3100,
 			durability = 0.03,
-			ammoname = 'ammo-rifle'
+			ammoname = 'mag-rifle'
 		},
 
 		['WEAPON_CARBINERIFLE_MK2'] = {
 			label = 'Carbine Rifle MK2',
 			weight = 3000,
 			durability = 0.03,
-			ammoname = 'ammo-rifle'
+			ammoname = 'mag-rifle'
 		},
 
 		['WEAPON_CERAMICPISTOL'] = {
 			label = 'Ceramic Pistol',
 			weight = 700,
 			durability = 0.2,
-			ammoname = 'ammo-9'
+			ammoname = 'mag-9'
 		},
 
 		['WEAPON_COMBATMG'] = {
 			label = 'Combat MG',
 			weight = 10000,
 			durability = 0.02,
-			ammoname = 'ammo-rifle'
+			ammoname = 'mag-rifle'
 		},
 
 		['WEAPON_COMBATMG_MK2'] = {
 			label = 'Combat MG MK2',
 			weight = 10500,
 			durability = 0.02,
-			ammoname = 'ammo-rifle2'
+			ammoname = 'mag-rifle2'
 		},
 
 		['WEAPON_COMBATPDW'] = {
 			label = 'Combat PDW',
 			weight = 2700,
 			durability = 0.1,
-			ammoname = 'ammo-9'
+			ammoname = 'mag-9'
 		},
 
 		['WEAPON_COMBATPISTOL'] = {
 			label = 'Combat Pistol',
 			weight = 970,
 			durability = 0.2,
-			ammoname = 'ammo-9'
+			ammoname = 'mag-9'
 		},
 
 		['WEAPON_COMBATSHOTGUN'] = {
@@ -154,7 +154,7 @@ return {
 			label = 'Compact Rifle',
 			weight = 2700,
 			durability = 0.05,
-			ammoname = 'ammo-rifle2'
+			ammoname = 'mag-rifle2'
 		},
 
 		['WEAPON_CROWBAR'] = {
@@ -180,7 +180,7 @@ return {
 			label = 'Double Action Revolver',
 			weight = 940,
 			durability = 0.2,
-			ammoname = 'ammo-38'
+			ammoname = 'mag-38'
 		},
 
 		['WEAPON_EMPLAUNCHER'] = {
@@ -236,7 +236,7 @@ return {
 			label = 'Gusenberg',
 			weight = 4900,
 			durability = 0.04,
-			ammoname = 'ammo-45'
+			ammoname = 'mag-45'
 		},
 
 		['WEAPON_HAMMER'] = {
@@ -255,7 +255,7 @@ return {
 			label = 'Heavy Rifle',
 			weight = 2750,
 			durability = 0.2,
-			ammoname = 'ammo-rifle'
+			ammoname = 'mag-rifle'
 		},
 
 		['WEAPON_HAZARDCAN'] = {
@@ -277,7 +277,7 @@ return {
 			label = 'Heavy Pistol',
 			weight = 1100,
 			durability = 0.2,
-			ammoname = 'ammo-45'
+			ammoname = 'mag-45'
 		},
 
 		['WEAPON_HEAVYSHOTGUN'] = {
@@ -291,14 +291,14 @@ return {
 			label = 'Heavy Sniper',
 			weight = 14000,
 			durability = 0.5,
-			ammoname = 'ammo-heavysniper'
+			ammoname = 'mag-heavysniper'
 		},
 
 		['WEAPON_HEAVYSNIPER_MK2'] = {
 			label = 'Heavy Sniper MK2',
 			weight = 10432,
 			durability = 0.5,
-			ammoname = 'ammo-heavysniper'
+			ammoname = 'mag-heavysniper'
 		},
 
 		['WEAPON_KNIFE'] = {
@@ -323,56 +323,56 @@ return {
 			label = 'Machine Pistol',
 			weight = 1400,
 			durability = 0.05,
-			ammoname = 'ammo-9'
+			ammoname = 'mag-9'
 		},
 
 		['WEAPON_MARKSMANPISTOL'] = {
 			label = 'Marksman Pistol',
 			weight = 1588,
 			durability = 0.5,
-			ammoname = 'ammo-22'
+			ammoname = 'mag-22'
 		},
 
 		['WEAPON_MARKSMANRIFLE'] = {
 			label = 'Marksman Rifle',
 			weight = 7500,
 			durability = 0.4,
-			ammoname = 'ammo-sniper'
+			ammoname = 'mag-sniper'
 		},
 
 		['WEAPON_MARKSMANRIFLE_MK2'] = {
 			label = 'Marksman Rifle',
 			weight = 4000,
 			durability = 0.4,
-			ammoname = 'ammo-sniper'
+			ammoname = 'mag-sniper'
 		},
 
 		['WEAPON_MG'] = {
 			label = 'Machine Gun',
 			weight = 9000,
 			durability = 0.02,
-			ammoname = 'ammo-rifle2'
+			ammoname = 'mag-rifle2'
 		},
 
 		['WEAPON_MICROSMG'] = {
 			label = 'Micro SMG',
 			weight = 4000,
 			durability = 0.1,
-			ammoname = 'ammo-45'
+			ammoname = 'mag-45'
 		},
 
 		['WEAPON_MILITARYRIFLE'] = {
 			label = 'Military Rifle',
 			weight = 3600,
 			durability = 0.03,
-			ammoname = 'ammo-rifle'
+			ammoname = 'mag-rifle'
 		},
 
 		['WEAPON_MINISMG'] = {
 			label = 'Mini SMG',
 			weight = 2770,
 			durability = 0.05,
-			ammoname = 'ammo-9'
+			ammoname = 'mag-9'
 		},
 
 		['WEAPON_MOLOTOV'] = {
@@ -392,7 +392,7 @@ return {
 			label = 'Navy Revolver',
 			weight = 2000,
 			durability = 0.2,
-			ammoname = 'ammo-44'
+			ammoname = 'mag-44'
 		},
 
 		['WEAPON_NIGHTSTICK'] = {
@@ -410,7 +410,7 @@ return {
 			label = 'Perico Pistol',
 			weight = 1750,
 			durability = 0.1,
-			ammoname = 'ammo-9'
+			ammoname = 'mag-9'
 		},
 
 		['WEAPON_PIPEBOMB'] = {
@@ -423,21 +423,21 @@ return {
 			label = 'Pistol',
 			weight = 970,
 			durability = 0.1,
-			ammoname = 'ammo-9',
+			ammoname = 'mag-9',
 		},
 
 		['WEAPON_PISTOL50'] = {
 			label = 'Pistol .50',
 			weight = 2000,
 			durability = 0.1,
-			ammoname = 'ammo-50'
+			ammoname = 'mag-50'
 		},
 
 		['WEAPON_PISTOL_MK2'] = {
 			label = 'Pistol MK2',
 			weight = 970,
 			durability = 0.5,
-			ammoname = 'ammo-9'
+			ammoname = 'mag-9'
 		},
 
 		['WEAPON_POOLCUE'] = {
@@ -470,14 +470,14 @@ return {
 			label = 'Revolver',
 			weight = 2260,
 			durability = 0.1,
-			ammoname = 'ammo-44'
+			ammoname = 'mag-44'
 		},
 
 		['WEAPON_REVOLVER_MK2'] = {
 			label = 'Revolver MK2',
 			weight = 1500,
 			durability = 0.1,
-			ammoname = 'ammo-44'
+			ammoname = 'mag-44'
 		},
 
 		['WEAPON_SAWNOFFSHOTGUN'] = {
@@ -491,14 +491,14 @@ return {
 			label = 'SMG',
 			weight = 3084,
 			durability = 0.8,
-			ammoname = 'ammo-9'
+			ammoname = 'mag-9'
 		},
 
 		['WEAPON_SMG_MK2'] = {
 			label = 'SMG Mk2',
 			weight = 2700,
 			durability = 0.05,
-			ammoname = 'ammo-9'
+			ammoname = 'mag-9'
 		},
 
 		['WEAPON_SMOKEGRENADE'] = {
@@ -511,7 +511,7 @@ return {
 			label = 'Sniper Rifle',
 			weight = 6500,
 			durability = 0.5,
-			ammoname = 'ammo-sniper'
+			ammoname = 'mag-sniper'
 		},
 
 		['WEAPON_SNOWBALL'] = {
@@ -524,28 +524,28 @@ return {
 			label = 'SNS Pistol',
 			weight = 465,
 			durability = 0.1,
-			ammoname = 'ammo-45'
+			ammoname = 'mag-45'
 		},
 
 		['WEAPON_SNSPISTOL_MK2'] = {
 			label = 'SNS Pistol MK2',
 			weight = 465,
 			durability = 0.1,
-			ammoname = 'ammo-45'
+			ammoname = 'mag-45'
 		},
 
 		['WEAPON_SPECIALCARBINE'] = {
 			label = 'Special Carbine',
 			weight = 3000,
 			durability = 0.03,
-			ammoname = 'ammo-rifle'
+			ammoname = 'mag-rifle'
 		},
 
 		['WEAPON_SPECIALCARBINE_MK2'] = {
 			label = 'Special Carbine MK2',
 			weight = 3370,
 			durability = 0.03,
-			ammoname = 'ammo-rifle'
+			ammoname = 'mag-rifle'
 		},
 
 		['WEAPON_STICKYBOMB'] = {
@@ -584,7 +584,7 @@ return {
 			label = 'Vintage Pistol',
 			weight = 100,
 			durability = 0.1,
-			ammoname = 'ammo-9'
+			ammoname = 'mag-9'
 		},
 
 		['WEAPON_WRENCH'] = {
@@ -597,14 +597,14 @@ return {
 			label = 'Precision Rifle',
 			weight = 4800,
 			durability = 0.4,
-			ammoname = 'ammo-sniper'
+			ammoname = 'mag-sniper'
 		},
 
 		['WEAPON_TACTICALRIFLE'] = {
 			label = 'Tactical Rifle',
 			weight = 3400,
 			durability = 0.03,
-			ammoname = 'ammo-rifle'
+			ammoname = 'mag-rifle'
 		},
 	},
 
@@ -1100,5 +1100,61 @@ return {
 			label = 'EMP round',
 			weight = 400,
 		},
-	}
+
+		--Magazines
+		['mag-22'] = {
+			label = '.22 Long Rifle',
+			weight = 3,
+		},
+
+		['mag-38'] = {
+			label = '.38 Long Colt',
+			weight = 10,
+		},
+
+		['mag-44'] = {
+			label = '.44 Magnum',
+			weight = 16,
+		},
+
+		['mag-45'] = {
+			label = '.45 ACP',
+			weight = 9,
+		},
+
+		['mag-50'] = {
+			label = '.50 AE',
+			weight = 19,
+		},
+
+		['mag-9'] = {
+			label = '9mm',
+			weight = 8,
+		},
+
+		['mag-heavysniper'] = {
+			label = '.50 BMG',
+			weight = 45,
+		},
+
+		['mag-rifle'] = {
+			label = '5.56',
+			weight = 4,
+		},
+
+		['mag-rifle2'] = {
+			label = '7.62',
+			weight = 8,
+		},
+
+		['mag-shotgun'] = {
+			label = '12 Gauge',
+			weight = 38,
+		},
+
+		['mag-sniper'] = {
+			label = '7.62 NATO',
+			weight = 11,
+		},
+	},
 }

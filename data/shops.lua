@@ -88,9 +88,17 @@ return {
 			id = 110, colour = 69, scale = 0.8
 		}, inventory = {
 			{ name = 'ammo-9', price = 5, },
+			{ name = 'ammo-shotgun', price = 5, },
+			{ name = 'ammo-musket', price = 5, },
+			{ name = 'ammo-flare', price = 5, },
+			{ name = 'mag-9', price = 35, },
 			{ name = 'WEAPON_KNIFE', price = 200 },
 			{ name = 'WEAPON_BAT', price = 100 },
-			{ name = 'WEAPON_PISTOL', price = 1000, metadata = { registered = true }, license = 'weapon' }
+			{ name = 'WEAPON_SMOKEGRENADE', price = 1000, metadata = { registered = true }, license = 'weapon' },
+			{ name = 'WEAPON_PISTOL', price = 1000, metadata = { registered = true }, license = 'weapon' },
+			{ name = 'WEAPON_PUMPSHOTGUN', price = 1000, metadata = { registered = true }, license = 'weapon' },
+			{ name = 'WEAPON_FLAREGUN', price = 1000, metadata = { registered = true }, license = 'weapon' },
+			{ name = 'WEAPON_MUSKET', price = 1000, metadata = { registered = true }, license = 'weapon' }
 		}, locations = {
 			vec3(-662.180, -934.961, 21.829),
 			vec3(810.25, -2157.60, 29.62),
