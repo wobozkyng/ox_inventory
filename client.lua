@@ -532,6 +532,11 @@ local function useSlot(slot)
 					local missingAmmo = clipSize - currentAmmo
 					local addAmmo = resp.count > missingAmmo and missingAmmo or resp.count
 					local newAmmo = currentAmmo + addAmmo
+					local ammo = currentWeapon.ammo
+					if ammo:find("mag") then
+						addAmmo = missingAmmo
+						newAmmo = clipSize
+					end
 
 					if newAmmo == currentAmmo then return end
 
