@@ -1,18 +1,16 @@
 if not lib then return end
 
 local CraftingBenches = {}
-local Items = client.items
-local locations = shared.target == 'ox_target' and 'zones' or 'points'
-local createBlip = client.utils.CreateBlip
+local Items = require 'modules.items.client'
+local createBlip = require 'modules.utils.client'.CreateBlip
 
 ---@param id number
 ---@param data table
 local function createCraftingBench(id, data)
 	CraftingBenches[id] = {}
-	local benchLocations = data[locations]
 	local recipes = data.items
 
-	if recipes and benchLocations then
+	if recipes then
 		data.slots = #recipes
 
 		for i = 1, data.slots do
@@ -44,7 +42,7 @@ local function createCraftingBench(id, data)
 				zone.index = i
 				zone.options = {
 					{
-						label = 'Open Crafting Bench',
+						label = zone.label or locale('open_crafting_bench'),
 						canInteract = data.groups and function()
 							return client.hasGroup(data.groups)
 						end or nil,
@@ -52,7 +50,7 @@ local function createCraftingBench(id, data)
 							client.openInventory('crafting', { id = id, index = i })
 						end,
 						distance = zone.distance or 2.0,
-						icon = 'fas fa-wrench',
+						icon = zone.icon or 'fas fa-wrench',
 					}
 				}
 
@@ -62,7 +60,7 @@ local function createCraftingBench(id, data)
 					createBlip(blip, zone.coords)
 				end
 			end
-		else
+		elseif data.points then
 			data.zones = nil
 
 			---@param point CPoint
@@ -99,4 +97,4 @@ end
 
 for id, data in pairs(data('crafting')) do createCraftingBench(id, data) end
 
-client.craftingBenches = CraftingBenches
+return CraftingBenches
