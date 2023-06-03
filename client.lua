@@ -665,7 +665,7 @@ local function registerCommands()
 		local vehicleHash = GetEntityModel(vehicle)
 		local vehicleClass = GetVehicleClass(vehicle)
 		local checkVehicle = Vehicles.Storage[vehicleHash]
-		
+
 		-- No storage or no glovebox
 		if (checkVehicle == 0 or checkVehicle == 2) or (not Vehicles.glovebox[vehicleClass] and not Vehicles.glovebox.models[vehicleHash]) then return end
 
@@ -676,7 +676,7 @@ local function registerCommands()
 		end
 	end
 
-	lib.addKeybind({
+	local primary = lib.addKeybind({
 		name = 'inv',
 		description = locale('open_player_inventory'),
 		defaultKey = client.keys[1],
@@ -707,7 +707,11 @@ local function registerCommands()
 		name = 'inv2',
 		description = locale('open_secondary_inventory'),
 		defaultKey = client.keys[2],
-		onPressed = function()
+		onPressed = function(self)
+            if primary:getCurrentKey() == self:getCurrentKey() then
+                return warn(("secondary inventory keybind '%s' disabled (keybind cannot match primary inventory keybind)"):format(self:getCurrentKey()))
+            end
+
 			if invOpen then
 				return client.closeInventory()
 			end
@@ -752,7 +756,7 @@ local function registerCommands()
 
 			local netId = VehToNet(entity)
 			local isTrailer = lib.callback.await('ox_inventory:isVehicleATrailer', false, netId)
-	
+
 			-- No storage or no glovebox
 			if (checkVehicle == 0 or checkVehicle == 1) or (not Vehicles.trunk[vehicleClass] and not Vehicles.trunk.models[vehicleHash]) then return end
 
